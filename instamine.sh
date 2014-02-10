@@ -12,6 +12,7 @@ if [ "$user" == "root" ]; then
 	apt-get install yasm -y git make g++ build-essential libminiupnpc-dev
 	apt-get install -y libboost-all-dev libdb++-dev libgmp-dev libssl-dev dos2unix automake pkg-config autoconf libminiupnpc-dev
 	apt-get install -y libdb-dev libdb++-dev
+	apt-get install -y autoconf automake libcurl3 libcurl3-dev screen pkg-config
 
 	#Check for presence of swapfile, create one if not present
 	if [ ! -e /swapfile ]; then
